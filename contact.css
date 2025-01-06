@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: "Concert One", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec;
+    color: #800080; /* Changed text color to purple */
+}
+
+header {
+    background-color: #ffefd5;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(128, 0, 128, 0.1); /* Subtle purple shadow */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #800080; /* Changed text color to purple */
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #800080; /* Changed text color to purple */
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 120px auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: #800080; /* Changed text color to purple */
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #800080; /* Changed text color to purple */
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(128, 0, 128, 0.1); /* Subtle purple shadow */
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    color: #800080; /* Changed text color to purple */
+}
+
+.contact-form input, .contact-form textarea, .contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #b19cd9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #ffefd5;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(128, 0, 128, 0.1); /* Subtle purple shadow */
+    margin-top: 50px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #800080; /* Changed text color to purple */
+}
+
+footer p {
+    margin: 5px 0;
+    color: #800080; /* Changed text color to purple */
+}

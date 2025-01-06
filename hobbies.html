@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="hobbies style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rabiatul</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="memories.html">Memories</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
+	<div class="button-group">
+            <button onclick="document.getElementById('arts').scrollIntoView({behavior: 'smooth'});">ARTS</button>
+            <button onclick="document.getElementById('collections').scrollIntoView({behavior: 'smooth'});">COLLECTIONS</button>
+            <button onclick="document.getElementById('games').scrollIntoView({behavior: 'smooth'});">GAMES</button>
+        </div>
+
+    <section id="arts">
+        <div class="hobby-container">
+            <div class="text-content">
+                <h3>ARTS</h3>
+                <h1>Paint is an expression!</h1>
+                <p>I am a self-taught artist who started my digital art journey at 12, using ibisPaint and MedibangPaint for original illustrations and fan art. My passion for sketching began at 6, inspired by manga and anime. At 16, I chose Art as an additional subject and created a batik project for my senior high school final project. It was a challenging and memorable experience.</p>
+                <a href="pdf/myart.pdf" class="button">Download My Illustrations !</a>
+            </div>
+            <div class="styled-video">
+                <video controls autoplay muted loop width = "320" height= "320">
+			<source src="mp4/video1.mp4" type="video/mp4">
+		</video>
+            </div>
+        </div>
+    </section>
+
+    <section id="collections">
+        <div class="hobby-container reverse">
+            <div class="image-content">
+                <img src="image/collection.jpg" alt="collection Hobby">
+            </div>
+            <div class="text-content">
+                <h3>COLLECTIONS</h3>
+                <h1>Collecting cure my heart ~</h1>
+                <p>I love collecting plushies, dolls, manga, and anime DVDs because I have a soft spot for cute things. They bring me joy, and I believe they are worth the money, as each item holds a special place in my heart. While my collection is still in its early stages and not as vast as I would like, I am excited to slowly build it over time. Each piece feels like a small treasure, and I can’t wait to expand my collection as I continue to explore and appreciate these adorable and meaningful items..</p>
+                <a href="pdf/mycollection.pdf" class="button">More photos of my collections~</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="hobby-container">
+            <div class="text-content">
+                <h3>GAMES</h3>
+                <h1>Chilling times is important !</h1>
+                <p>I have enjoyed playing games since I was young, and gaming has always been a big part of my life. Right now, I am really into rhythm games like Project Sekai and Bandori, both on the global and Japanese servers. On mobile, I play Muse Dash and Mobile Legends, and I also enjoy role-playing games like Genshin Impact, Honkai Star Rail, and Reverse 1999. When I am on my computer, I play osu, Heaven Burns Red, and a variety of horror and psychological role-playing games. Gaming is a great way for me to unwind and enjoy immersive worlds, whether on my phone, laptop or my tablet.</p>
+                <a href="#arts" class="button">Go back up!</a>
+            </div>
+            <div class="image-content">
+                <img src="image/games.jpg" alt="Games Hobby">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+		
+		<footer style="text-align: center; font-family: 'Arial', sans-serif; background-color: #ffefd5; color: pink; padding: 3px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    <div>
+        <h2>Thank You for Visiting!</h2>
+        <p>&copy; 2025 Rabiatul Adaviyah. All Rights Reserved.</p>
+    </div>
+</footer>

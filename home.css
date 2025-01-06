@@ -1,0 +1,114 @@
+body {
+    font-family: "Concert One", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffddf4;
+    color: #b19cd9;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text Content */
+.text-content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #b19cd9;
+}
+
+.text-content p {
+    margin: 20px 0;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Social Icons */
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Space between icons */
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    width: 40px; /* Reduced size */
+    height: 40px; /* Reduced size */
+    background-color: #ffefd5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b19cd9;
+    font-size: 1.8rem; /* Reduced font size */
+    transition: all 0.3s ease;
+    border: 2px solid #f49ac2;
+    text-decoration: none; /* Removed underline */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.social-icons a:hover {
+    background-color: #ffcff1;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffefd5;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 2rem; /* Smaller padding for a more compact button */
+    background-color: #ffefd5;
+    color: #f4a7c1; /* Pink color */
+    border-radius: 3rem;
+    font-size: 1.4rem; /* Smaller font size */
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    border: 2px solid #f49ac2;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ffcff1;
+    color: #d88cbc;
+    box-shadow: 0 0 15px #ffefd5;
+    transform: scale(1.05);
+}
+
+/* Slideshow container */
+		.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+		}
+

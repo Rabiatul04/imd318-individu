@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Contact Me</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+
+<!-- Header -->
+<header style="background-color: #ffefd5; padding: 15px 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); position: fixed; top: 0; width: 100%; z-index: 1000;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+        <h1 style="margin: 0; font-size: 1.8em; color: #b19cd9;">Rabiatul</h1>
+        <nav>
+            <ul style="display: flex; gap: 20px; list-style: none; margin: 0; padding: 0;">
+                <li><a href="index.html" style="text-decoration: none; color: #b19cd9; font-weight: bold;">Home</a></li>
+                <li><a href="about.html" style="text-decoration: none; color: #b19cd9; font-weight: bold;">About me</a></li>
+                <li><a href="hobbies.html" style="text-decoration: none; color: #b19cd9; font-weight: bold;">Hobbies</a></li>
+                <li><a href="memories.html" style="text-decoration: none; color: #b19cd9; font-weight: bold;">Memories</a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: #b19cd9; font-weight: bold;">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div style="max-width: 1200px; margin: 100px auto 20px; padding: 0 20px;">
+        <table style="width: 100%; border-spacing: 20px;">
+            <tr>
+                <!-- Left Pane -->
+                <td style="width: 40%; vertical-align: top;">
+                    <h2>Contact Me</h2>
+                    <p><b>Seksyen 11</b><br>Kota Damansara, Selangor</p>
+                    <p>Email: rabiatuladaviyah3@gmail.com</p>
+                    <p>Phone: 01133468618</p>
+                </td>
+
+                <!-- Right Pane -->
+                <td style="width: 60%; vertical-align: top;">
+                    <h1>Contact Form</h1>
+                    <form name="form1" method="post" action="mailto:rabiatuladaviyah3@gmail.com">
+                        <p>Name: <input type="text" size="25" name="name"></p>
+                        <p>Title: <input type="text" size="25" name="title"></p>
+                        <p>Address:</p>
+                        <p><textarea cols="40" rows="5" name="address"></textarea></p>
+                        <p>Single: <input type="checkbox" name="single" value="single"></p>
+                        <p>Married: <input type="checkbox" name="married" value="married"></p>
+                        <p>Gender:</p>
+                        <p>Male: <input type="radio" name="gender" value="male"></p>
+                        <p>Female: <input type="radio" name="gender" value="female"></p>
+                        <p>State:
+                            <select name="state">
+                                <option value="Sel">Selangor</option>
+                                <option value="W.P">Wilayah Persekutuan</option>
+                                <option value="Per">Perak</option>
+                                <option value="Pah">Pahang</option>
+                                <option value="Ked">Kedah</option>
+                                <option value="Per">Perlis</option>
+                                <option value="P.P">Pulau Pinang</option>
+                                <option value="Kel">Kelantan</option>
+                                <option value="Ter">Terengganu</option>
+                                <option value="N9">Negeri Sembilan</option>
+                                <option value="Mel">Melaka</option>
+                                <option value="Joh">Johor</option>
+                                <option value="Sab">Sabah</option>
+                                <option value="Sar">Sarawak</option>
+                            </select>
+                        </p>
+                        <p>Upload File: <input type="file" name="gambar"></p>
+                        <p><input name="submit" type="submit" value="Submit" style="background-color: #b19cd9; color: white; padding: 10px 20px; border: none; cursor: pointer;"></p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer style="text-align: center; background-color: #ffefd5; padding: 20px 0; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); margin-top: 50px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="margin: 0; font-size: 1.5em; color: #b19cd9;">Thank You for Visiting!</h2>
+        <p style="margin: 5px 0; color: #b19cd9;">&copy; 2025 Rabiatul Adaviyah. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</html>

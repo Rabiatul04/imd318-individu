@@ -1,0 +1,110 @@
+body {
+    font-family:  "Concert One", serif;
+    background-color:#ffddf4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ffefd5;
+    border: 3px solid #ff99cc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.header {
+    background-color: #ffcff1;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #ff99cc;
+    padding: 10px;
+    text-align: center;
+}
+
+td[colspan] {
+    background-color: #ffe4e1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-box {
+    font-size: 14px;
+    color: #ff66b2;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    color: #ff66b2;
+    margin-top: 20px;
+}
+.custom-list {
+    list-style-type: square;
+    color: #ff66b2;
+}
+
+.custom-header {
+    color: #ff66b2;
+}
+
+.highlight {
+    color: #966fd6;
+    font-weight: bold;
+}
+
+.custom-pre {
+    background-color: #f0f0f0;
+    padding: 0px;
+    border-radius: 3px;
+    font-family: "Berkshire Swash", serif;
+}
+.last-table {
+	font-family: "Berkshire Swash", serif;
+	font-size: 12px;
+	text-align: center;
+	color: #ff66b2;
+}
+
+.song-table {
+	font-family: "Berkshire Swash", serif;
+	font-size: 17px;
+	text-align: center;
+	color: #b284be;
+}
+
+.back-button {
+    background-color: #967bb6; /* Using the first color code */
+    color: #fdf5e6; /* Using the second color code */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button:hover {
+    background-color: #fdf5e6; /* Hover effect with the second color */
+    color: #967bb6; /* Hover text color with the first color */
+}
+
+
