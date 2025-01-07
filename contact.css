@@ -5,6 +5,12 @@ body {
     padding: 0;
     background-color: #fce4ec;
     color: #800080; /* Changed text color to purple */
+	 opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 header {

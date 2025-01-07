@@ -4,6 +4,12 @@ body {
     margin: 0;
     background-color: #e6e8fa;
     color: #ffa6c9;
+	opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 header {
@@ -73,7 +79,7 @@ header nav ul li a.active {
 .button-group button:active {
     background-color: #d693b7; /* Slightly darker purple when clicked */
     color: #ffddf4; /* Light pink text when clicked */
-    transform: translateY(1px); /* Slight press effect */
+    transform: translateY(1px); 
 }
 
 /* Hobby Sections */
@@ -124,15 +130,23 @@ section {
     font-weight: bold;
 }
 
+/* Image Content with Animation */
 .image-content img {
     width: 70%;
-    border-radius: 8px; /* Adds rounded corners */
-    border: 5px solid #ffefd5; /* Light yellow border */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; 
+    border: 5px solid #ffefd5; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     display: block;
-    margin: 20px auto; /* Centers the video horizontally and adds space at the top */
+    margin: 20px auto; 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
 }
 
+.image-content img:hover {
+    transform: scale(1.05); 
+    border-color: #e7accf; 
+}
+
+/* Video Style */
 .styled-video {
     width: 320px;
     height: 320px;
@@ -165,3 +179,8 @@ section {
         margin: 0 auto;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+

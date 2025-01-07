@@ -86,7 +86,7 @@
 	  </table>
     <footer style="text-align: center; font-family: 'Arial', sans-serif; background-color: #ffefd5; padding: 3px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
     <div>
-        <h2>Thank You for Visiting!</h2>
+        <marquee><h2>Thank You for Visiting!</h2></marquee>
         <p>&copy; 2025 Rabiatul Adaviyah. All Rights Reserved.</p>
     </div>
 </footer>
@@ -132,6 +132,11 @@
 					});
 				});
 			});
+			
+	window.addEventListener("load", function() {
+    document.body.classList.add("loaded");
+});
 	</script>
+
 </body>
 </html>

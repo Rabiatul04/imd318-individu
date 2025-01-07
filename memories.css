@@ -6,6 +6,12 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+	 opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 .moodboard {
